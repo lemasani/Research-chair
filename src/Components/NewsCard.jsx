@@ -1,0 +1,15 @@
+import React from 'react';
+import Card from 'react-bootstrap/Card';
+import Button from 'react-bootstrap/Button';
+
+export default function NewsCard({ news, date, place, link }) {
+  return (
+    <Card style={{ width: '12rem', border: 'none' }}>
+      <Card.Body>
+        <Card.Title>{news}</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">{date} - {place}</Card.Subtitle>
+        <Button variant="primary" href={link} target="_blank">Read More</Button>
+      </Card.Body>
+    </Card>
+  );
+}
