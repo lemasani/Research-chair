@@ -17,21 +17,21 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
           <Nav>
-            <Nav.Link className='nav-item' href="/Home">Home</Nav.Link>
+            <Nav.Link className='nav-item' href="/">Home</Nav.Link>
             <Nav.Link className='nav-item' href="/About">About us</Nav.Link>
             <NavDropdown className='nav-dropdown' title="Research" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">About research</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/research/about-research">About research</NavDropdown.Item>
+              <NavDropdown.Item href="/research/fieldwork">
                 Fieldworks
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Working papers</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="/research/working-papers">Working papers</NavDropdown.Item>
+              <NavDropdown.Item href="/research/publications">
                 Publications
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.5">
+              <NavDropdown.Item href="/research/outreach">
                 Outreach
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.6">
+              <NavDropdown.Item href="/research/symposyium&conferences">
                 Symposyium and conferences
                </NavDropdown.Item>
             </NavDropdown>
