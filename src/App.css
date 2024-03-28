@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 
+*{
+   font-family: 'lora';
+}
 
 .loader-container{
     position: fixed;
@@ -57,7 +60,16 @@ figcaption{
     color: #1D67AF;
     text-align: center;
     margin: 1em 0;
-
+}
+.heading-sm{
+    font-family: 'lora';
+    color: #1D67AF;
+    font-size: 1.3rem
+}
+.underlined{
+    text-decoration: #FCCA46 underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 3px;
 }
 
 
@@ -135,6 +147,16 @@ figcaption{
 
 
 /* about page */
+
+.about{
+    font-family: lora;
+}
+
+.about span{
+    font-style: italic;
+    font-weight: bold;
+}
+
 
 .intro{
     font-family: lora;
