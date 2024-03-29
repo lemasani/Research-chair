@@ -18,7 +18,7 @@ function MyNavbar() {
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-center'>
           <Nav>
             <Nav.Link className='nav-item' href="/">Home</Nav.Link>
-            <Nav.Link className='nav-item' href="/About">About us</Nav.Link>
+            <Nav.Link className='nav-item' href="/about">About us</Nav.Link>
             <NavDropdown className='nav-dropdown' title="Research" id="basic-nav-dropdown">
               <NavDropdown.Item href="/research/about-research">About research</NavDropdown.Item>
               <NavDropdown.Item href="/research/fieldwork">
