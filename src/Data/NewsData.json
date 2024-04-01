@@ -1,0 +1,33 @@
+[
+    {
+        "news": "News 1",
+        "date": "2022-01-01",
+        "place": "Place 1",
+        "id": 1,
+        "content": "lorem ipsuem ahabeha;  ahe ahjpepnba aohenpabc",
+        "image": "./../assets/kigogo1.png"
+    },
+    {
+        "news": "News 2",
+        "date": "2022-02-01",
+        "place": "Place 2",
+        "id": 2,
+        "content": "hey there my name is ange",
+        "image": "./../assets/kigogo1.png"
+    },
+    {
+        "news": "News 3",
+        "date": "2022-03-01",
+        "place": "Place 3",
+        "id": 3,
+        "content": "hey there my name is tripo",
+        "image": "./../assets/kigogo1.png"
+    },
+    {
+        "news": "News 4",
+        "date": "2022-04-01",
+        "id": 4,
+        "content": "hey there my name is uerber",
+        "image": "./../assets/kigogo1.png"
+    }
+]

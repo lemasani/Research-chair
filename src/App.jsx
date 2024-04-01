@@ -9,6 +9,8 @@ import WorkingPapers from './Pages/Research/WorkingPapers'
 import Publications from './Pages/Research/Publications'
 import Outreach from './Pages/Research/Outreach'
 import Symposyium from './Pages/Research/Symposyium'
+import News from './Pages/News'
+import NewsDetails from './Pages/NewsDetails'
 
 function App() {
   
@@ -26,6 +28,14 @@ function App() {
       <Route path='/research/publications' element={<Publications/>}/>
       <Route path='/research/outreach' element={<Outreach/>}/>
       <Route path='/research/symposyium&conferences' element={<Symposyium/>}/>
+
+
+
+
+
+      <Route path='/news' element={<News/>}/>
+      <Route path="/news/:id" element={<NewsDetails/>} />
+      
     </Routes>
     </>
     </BrowserRouter>

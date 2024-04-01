@@ -55,7 +55,7 @@ function MyNavbar() {
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Partners</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link className='nav-item' href="#link">News</Nav.Link>
+            <Nav.Link className='nav-item' href="/news">News</Nav.Link>
             <Nav.Link className='nav-item' href="#link">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
