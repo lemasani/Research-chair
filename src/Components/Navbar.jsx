@@ -36,11 +36,11 @@ function MyNavbar() {
                </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown className='nav-dropdown' title="Training" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Seminars</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="/training/seminars">Seminars</NavDropdown.Item>
+              <NavDropdown.Item href="/training/internship">
                 Internship
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Research support</NavDropdown.Item>
+              <NavDropdown.Item href="/training/research-support">Research support</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown className='nav-dropdown' title="Policy Dialogues" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">First National Policy Dialogue</NavDropdown.Item>

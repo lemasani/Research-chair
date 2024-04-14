@@ -1,0 +1,99 @@
+[
+    {
+      "category": "Tanzania",
+      "year": 2023,
+      "interns": [
+        {
+          "id": 1,
+          "name": "Bahati John",
+          "educationLevel": "BA Political Science and Public Administration (UDSM)",
+          "hostingOrganization": "Dignity Kwanza Advocacy and Capacity Development for Urban Refugees.Dar es Salaam, Tanzania",
+          "image": "Interns/bahati john.png"
+        },
+        {
+          "id": 2,
+          "name": "Bethuel Semwa",
+          "educationLevel": "BA. Economics (Ardhi University)",
+          "hostingOrganization": "Dignity Kwanza Advocacy and Capacity Development for Urban Refugees.Dar es Salaam, Tanzania.",
+          "image": "Interns/semwa.png"
+        },
+        {
+          "id": 3,
+          "name": "Maryum M. Msambaya",
+          "educationLevel": " Bsc. With Education (Sokoine University).",
+          "hostingOrganization": "REDESO Focusing on Community empowerment, livelihood intervention in Refugees Camps in Response to Climate Change Impacts Kasulu, Kigoma, Tanzania",
+          "image": "Interns/msambaya.png"
+        },
+        {
+          "id": 4,
+          "name": "Francis Amball",
+          "educationLevel": " BA. Geography and Environmental Studies (UDSM)",
+          "hostingOrganization": "KINNAPA on the Project titled Livestock, Climate and System Resilience Kiteto, Manyara",
+          "image": "Interns/Francis.png"
+        },
+        {
+          "id": 5,
+          "name": "Careen Amani Mtui",
+          "educationLevel": " Bsc. Food science(Sokoine University).",
+          "hostingOrganization": "KINNAPA on the Project titled Livestock, Climate and System Resilience Kiteto, Manyara.",
+          "image": "Interns/careen mtui.png"
+        },
+        {
+          "id": 6,
+          "name": "S. Timotheo Nzoboina",
+          "educationLevel": " BA. Geography and Environmental Studies (UDSM)",
+          "hostingOrganization": "REDESO Focusing on Community empowerment, livelihood intervention in Refugees Camps in Response to Climate Change Impacts Kasulu, Kigoma, Tanzania",
+          "image": "Interns/timotheo.png"
+        }
+      ]
+    },
+    {
+      "category": "Uganda",
+      "year": 2024,
+      "interns": [
+        {
+          "id": 7,
+          "name": "Katushabe Ronald",
+          "educationLevel": "Bachelor of Laws, Postgraduate Diploma in Legal Practice at Law Development Center-Uganda",
+          "hostingOrganization": "NGO-Refugee Law Project.",
+          "image": "Interns/ronald.png"
+        },
+        {
+          "id": 8,
+          "name": "Amanda Biwoye",
+          "educationLevel": " Bachelor of Laws Makerere University",
+          "hostingOrganization": "CAFOMI Uganda",
+          "image": "Interns/amanda.png"
+        },
+        {
+          "id": 9,
+          "name": "Mukisa Hussein",
+          "educationLevel": "Bachelor of journalism and communication (Makerere University).",
+          "hostingOrganization": "International Rescue Committee (IRC), Uganda.",
+          "image": "Interns/Mukisa.png"
+        },
+        {
+          "id": 10,
+          "name": "Wani Alex lou",
+          "educationLevel": " Bsc. Food Technology and Human Nutrition",
+          "hostingOrganization": "International Rescue Committee Ayivu, BidiBidi refugee settlement, Uganda",
+          "image": "Interns/wani alex.png"
+        },
+        {
+          "id": 11,
+          "name": "Caroline Baan",
+          "educationLevel": "BA. Law (UCU) and Dip. Legal Studies (LDC)",
+          "hostingOrganization": "International Rescue Committee (IRC) Uganda, Kampala.",
+          "image": "Interns/caroline.png"
+        },
+        {
+          "id": 12,
+          "name": "Kanshme Patrah Angel",
+          "educationLevel": "Bachelor of Law at Cavendish University Uganda",
+          "hostingOrganization": "Refugee Law Project – Kiryandongo",
+          "image": "Interns/angel.png"
+        }
+      ]
+    }
+    
+  ]

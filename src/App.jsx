@@ -11,6 +11,9 @@ import Outreach from './Pages/Research/Outreach'
 import Symposyium from './Pages/Research/Symposyium'
 import News from './Pages/News'
 import NewsDetails from './Pages/NewsDetails'
+import Seminar from './Pages/Training/Seminar'
+import Internship from './Pages/Training/Internship'
+import ResearchSupport from './Pages/Training/ResearchSupport'
 
 function App() {
   
@@ -29,7 +32,11 @@ function App() {
       <Route path='/research/outreach' element={<Outreach/>}/>
       <Route path='/research/symposyium&conferences' element={<Symposyium/>}/>
 
+      {/* training routes */}
 
+      <Route path='/training/seminars' element={<Seminar/>}/>
+      <Route path='/training/internship' element={<Internship/>}/>
+      <Route path='/training/research-support' element={<ResearchSupport/>}/>
 
 
 
