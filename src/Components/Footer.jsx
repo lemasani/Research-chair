@@ -3,37 +3,87 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 export default function Footer() {
   return (
-    <footer className="bg-primary text-white mt-5 p-4">
-      <Container>
-        <Row className='text-center'>
-         
-          <Col>
-            <h5>Quick Links</h5>
-            <ul className="list-unstyled">
-              <li><a href="/about" className="text-white">About</a></li>
-              <li><a href="/contact" className="text-white">Contact</a></li>
-              {/* Add more page links here */}
-            </ul>
-          </Col>
-          <Col>
-            <h5>Social</h5>
-            <ul className="list-unstyled">
-              <li><a href="https://facebook.com" className="text-white">Facebook</a></li>
-              <li><a href="https://twitter.com/UDSMRCFD" target='_blank' className="text-white">Twitter</a></li>
-              {/* Add more social links here */}
-            </ul>
-          </Col>
+    <>
+
+    <footer className="bg-primary text-white text-center text-lg-start">
+    <div className="container">
+   
+    <section className="mt-5">
+      <div className="row text-center d-flex justify-content-center pt-5">
+       
+        <div className="col-md-2">
+          <h6 className="text-uppercase font-weight-bold">
+            <a href="#!" className="text-white">About us</a>
+          </h6>
+        </div>
         
-        </Row>
-        <Row className='text-center mt-2 mb-2'>
-        <Col>
-            <p>Strengthening knowledge, evidence use and leadership in the global south on forced displacement</p>
-          </Col>
-        </Row>
-        <Row className='text-center'>
-          <Col className="text-center">&copy; {new Date().getFullYear()}</Col>
-        </Row>
-      </Container>
-    </footer>
+        <div className="col-md-2">
+          <h6 className="text-uppercase font-weight-bold">
+            <a href="#!" className="text-white">Training</a>
+          </h6>
+        </div>
+       
+        <div className="col-md-2">
+          <h6 className="text-uppercase font-weight-bold">
+            <a href="#!" className="text-white">Research</a>
+          </h6>
+        </div>
+
+        <div className="col-md-2">
+          <h6 className="text-uppercase font-weight-bold">
+            <a href="#!" className="text-white">Collaboration</a>
+          </h6>
+        </div>
+
+        
+        <div className="col-md-2">
+          <h6 className="text-uppercase font-weight-bold">
+            <a href="#!" className="text-white">News</a>
+          </h6>
+        </div>
+       
+      </div>
+     
+    </section>
+   
+
+    <hr className="my-5" />
+
+    
+    <section className="mb-5">
+      <div className="row d-flex justify-content-center">
+        <div className="col-lg-8">
+          <p>
+          Strengthening knowledge, evidence use and leadership in the global south on forced displacement
+          </p>
+        </div>
+      </div>
+    </section>
+    
+   
+    <section className="text-center mb-5">
+      <a href="https://twitter.com/UDSMRCFD" className="text-white me-4">
+        <i className="bi bi-twitter-x"></i>
+      </a>
+    </section>
+    
+  </div>
+ 
+  <div
+       className="text-center p-3 copyright"
+       style={
+          {
+            backgroundColor: 'rgba(0, 0, 0, 0.2)',
+            color: 'white',
+            fontSize: '0.8rem'
+          }
+        
+       }
+       >
+    &copy; {new Date().getFullYear()}
+   
+  </div>
+  </footer>
+  </>
   );
 }
