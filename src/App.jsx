@@ -1,52 +1,46 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import './App.css'
-import TopNavbar from './Components/Navbar'
-import Home from './Pages/Home'
-import About from './Pages/About'
-import AboutResearch from './Pages/Research/About Research'
-import Fieldworks from './Pages/Research/Fieldworks'
-import WorkingPapers from './Pages/Research/WorkingPapers'
-import Publications from './Pages/Research/Publications'
-import Outreach from './Pages/Research/Outreach'
-import Symposyium from './Pages/Research/Symposyium'
-import News from './Pages/News'
-import NewsDetails from './Pages/NewsDetails'
-import Seminar from './Pages/Training/Seminar'
-import Internship from './Pages/Training/Internship'
-import ResearchSupport from './Pages/Training/ResearchSupport'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import React, { Suspense, lazy } from 'react';
+import './App.css';
+import TopNavbar from './Components/Navbar';
+import Loader from './Components/loader';
+
+const Home = lazy(() => import('./Pages/Home'));
+const About = lazy(() => import('./Pages/About'));
+const AboutResearch = lazy(() => import('./Pages/Research/About Research'));
+const Fieldworks = lazy(() => import('./Pages/Research/Fieldworks'));
+const WorkingPapers = lazy(() => import('./Pages/Research/WorkingPapers'));
+const Publications = lazy(() => import('./Pages/Research/Publications'));
+const Outreach = lazy(() => import('./Pages/Research/Outreach'));
+const Symposyium = lazy(() => import('./Pages/Research/Symposyium'));
+const News = lazy(() => import('./Pages/News'));
+const NewsDetails = lazy(() => import('./Pages/NewsDetails'));
+const Seminar = lazy(() => import('./Pages/Training/Seminar'));
+const Internship = lazy(() => import('./Pages/Training/Internship'));
+const ResearchSupport = lazy(() => import('./Pages/Training/ResearchSupport'));
 
 function App() {
-  
-
   return (
     <BrowserRouter>
-    <>
       <TopNavbar/>
-    <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/about" element={<About/>}/>
-      <Route path='/research/about-research' element={<AboutResearch/>}/>
-      <Route path='/research/fieldwork' element={<Fieldworks/>}/>
-      <Route path='/research/working-papers' element={<WorkingPapers/>}/>
-      <Route path='/research/publications' element={<Publications/>}/>
-      <Route path='/research/outreach' element={<Outreach/>}/>
-      <Route path='/research/symposyium&conferences' element={<Symposyium/>}/>
-
-      {/* training routes */}
-
-      <Route path='/training/seminars' element={<Seminar/>}/>
-      <Route path='/training/internship' element={<Internship/>}/>
-      <Route path='/training/research-support' element={<ResearchSupport/>}/>
-
-
-
-      <Route path='/news' element={<News/>}/>
-      <Route path="/news/:id" element={<NewsDetails/>} />
-      
-    </Routes>
-    </>
+      <Suspense fallback={<Loader />}>
+        <Routes>
+          <Route path="/" element={<Home/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path='/research/about-research' element={<AboutResearch/>}/>
+          <Route path='/research/fieldwork' element={<Fieldworks/>}/>
+          <Route path='/research/working-papers' element={<WorkingPapers/>}/>
+          <Route path='/research/publications' element={<Publications/>}/>
+          <Route path='/research/outreach' element={<Outreach/>}/>
+          <Route path='/research/symposyium&conferences' element={<Symposyium/>}/>
+          <Route path='/training/seminars' element={<Seminar/>}/>
+          <Route path='/training/internship' element={<Internship/>}/>
+          <Route path='/training/research-support' element={<ResearchSupport/>}/>
+          <Route path='/news' element={<News/>}/>
+          <Route path="/news/:id" element={<NewsDetails/>} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
-  )
+  );
 }
 
-export default App
+export default App;
