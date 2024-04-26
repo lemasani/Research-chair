@@ -17,6 +17,8 @@ const NewsDetails = lazy(() => import('./Pages/NewsDetails'));
 const Seminar = lazy(() => import('./Pages/Training/Seminar'));
 const Internship = lazy(() => import('./Pages/Training/Internship'));
 const ResearchSupport = lazy(() => import('./Pages/Training/ResearchSupport'));
+const SecondDialogue = lazy(() => import('./Pages/PolicyDialogue/SecondDialogue'));
+const FirstDialogue = lazy(() => import('./Pages/PolicyDialogue/FirstDialogue'));
 
 function App() {
   return (
@@ -26,15 +28,25 @@ function App() {
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
+
+          //research routes
           <Route path='/research/about-research' element={<AboutResearch/>}/>
           <Route path='/research/fieldwork' element={<Fieldworks/>}/>
           <Route path='/research/working-papers' element={<WorkingPapers/>}/>
           <Route path='/research/publications' element={<Publications/>}/>
           <Route path='/research/outreach' element={<Outreach/>}/>
           <Route path='/research/symposyium&conferences' element={<Symposyium/>}/>
+
+          //training routes
           <Route path='/training/seminars' element={<Seminar/>}/>
           <Route path='/training/internship' element={<Internship/>}/>
           <Route path='/training/research-support' element={<ResearchSupport/>}/>
+
+          //policy dialogue routes
+          <Route path='/1stDialogue' element={<FirstDialogue/>}/>
+          <Route path='/2ndDialogue' element={<SecondDialogue/>}/>
+
+          //news routes
           <Route path='/news' element={<News/>}/>
           <Route path="/news/:id" element={<NewsDetails/>} />
         </Routes>
