@@ -13,24 +13,26 @@ export default function Footer() {
        
         <div className="col-md-2">
           <h6 className="text-uppercase font-weight-bold">
-            <a href="#!" className="text-white">About us</a>
+            <a href="/about" className="text-white">About us</a>
           </h6>
         </div>
         
         <div className="col-md-2">
           <h6 className="text-uppercase font-weight-bold">
-            <a href="#!" className="text-white">Training</a>
+            <a href="/training/internship" className="text-white">Training</a>
           </h6>
         </div>
        
         <div className="col-md-2">
           <h6 className="text-uppercase font-weight-bold">
-            <a href="#!" className="text-white">Research</a>
+            <a href="/research/about-research" className="text-white">Research</a>
           </h6>
         </div>
 
         <div className="col-md-2">
           <h6 className="text-uppercase font-weight-bold">
+
+            {/* page not yet built */}
             <a href="#!" className="text-white">Collaboration</a>
           </h6>
         </div>
@@ -38,7 +40,7 @@ export default function Footer() {
         
         <div className="col-md-2">
           <h6 className="text-uppercase font-weight-bold">
-            <a href="#!" className="text-white">News</a>
+            <a href="/news" className="text-white">News</a>
           </h6>
         </div>
        
