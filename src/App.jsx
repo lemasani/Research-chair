@@ -16,6 +16,7 @@ const News = lazy(() => import('./Pages/News'));
 const NewsDetails = lazy(() => import('./Pages/NewsDetails'));
 const Seminar = lazy(() => import('./Pages/Training/Seminar'));
 const Internship = lazy(() => import('./Pages/Training/Internship'));
+const InternsByCategory = lazy(() => import('./Pages/Training/InternByCategory'));
 const ResearchSupport = lazy(() => import('./Pages/Training/ResearchSupport'));
 const SecondDialogue = lazy(() => import('./Pages/PolicyDialogue/SecondDialogue'));
 const FirstDialogue = lazy(() => import('./Pages/PolicyDialogue/FirstDialogue'));
@@ -39,7 +40,8 @@ function App() {
 
           //training routes
           <Route path='/training/seminars' element={<Seminar/>}/>
-          <Route path='/training/internship' element={<Internship/>}/>
+          <Route path='/internship' element={<Internship/>}/>
+          <Route path="/interns/:category" element={<InternsByCategory/>} />
           <Route path='/training/research-support' element={<ResearchSupport/>}/>
 
           //policy dialogue routes

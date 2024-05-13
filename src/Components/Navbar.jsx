@@ -37,7 +37,7 @@ function MyNavbar() {
             </NavDropdown>
             <NavDropdown className='nav-dropdown' title="Training" id="basic-nav-dropdown">
               <NavDropdown.Item href="/training/seminars">Seminars</NavDropdown.Item>
-              <NavDropdown.Item href="/training/internship">
+              <NavDropdown.Item href="/internship">
                 Internship
               </NavDropdown.Item>
               <NavDropdown.Item href="/training/research-support">Research support</NavDropdown.Item>
