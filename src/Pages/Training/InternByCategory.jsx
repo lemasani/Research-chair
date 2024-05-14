@@ -2,7 +2,6 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import { Container, Row, Col } from 'react-bootstrap'
 import Footer from '../../Components/Footer'
-import InternCard from '../../Components/InternCard' // Import the InternCard component
 import InternData from '../../Data/Interns.json'
 
 export default function InternsByCategory() {

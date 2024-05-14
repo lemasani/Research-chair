@@ -165,6 +165,15 @@ figcaption{
     margin: 0 auto;
 }
 
+.intern-category{
+    display: flex;
+    width: fit-content;
+    padding: 10px;
+}
+.intern-category .link{
+    text-decoration: none;
+    color: black;
+}
 
 
 

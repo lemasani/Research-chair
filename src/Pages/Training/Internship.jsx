@@ -18,11 +18,13 @@ export default function Internship() {
             </Row>
             <Row>
               {InternData.map((category) => (
-                <div key={category.category}>
-                  <h2 className='underlined text-primary mt-3 mb-4 text-center'>
-                    <Link to={`/interns/${category.category}`}>{category.category} {category.year}</Link>
-                  </h2>
-                </div>
+                <Col>
+                  <div key={category.category} className='intern-category '>
+                    <h2 className='mt-3 mb-4 text-center'>
+                      <Link to={`/interns/${category.category}`} className='link'>{category.category} {category.year}</Link>
+                    </h2>
+                  </div>
+                </Col>
               ))}
             </Row>
         </Container>
