@@ -1,8 +1,17 @@
-import React from 'react'
-import { Container, Row } from 'react-bootstrap'
+import {useState} from 'react'
+import { Col, Container, Row } from 'react-bootstrap'
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material'
 import Footer from '../../Components/Footer'
+import Seminars from '../../Data/Seminar.json';
 
 export default function Seminar() {
+  
+  const [selectedEntries, setSelectedEntries] = useState([]);
+
+  const handleSectionClick = (entries) => {
+    setSelectedEntries(entries);
+  }
+
   return (
     <>
         <Container>
@@ -18,21 +27,45 @@ export default function Seminar() {
             <p>Throughout the year, we host a range of seminars featuring presentations by leading researchers, practitioners, and policymakers. Past seminars (2022-2023) covered diverse topics such as research methodologies, data analysis, policy and advocacy, the impact of forced displacement, and even scholarly development.</p>
           </Row>
 
-
           <Row>
-            <h5>Upcoming Seminars in 2024</h5> 
-            <p>We're excited to announce our upcoming seminar schedule for 2024! Here's a glimpse of some of the thought-provoking presentations you can expect:</p>
+            <Col xs={12} md={12} lg={4}>
+            {Seminars.seminars.map((seminar, index) => (
+              <div key={index} className='section-title' onClick={() => handleSectionClick(seminar.entries)}>
+                <h3 className='fs-5 text-underline'>{seminar.section_title}</h3>
+                <span>Click to view Seminar</span>
+              </div>
+            ))}
 
-            <ul>
-              <li>Climate Change Policies and Displacement Nexus (January 9th)</li>
-              <li>The East African Community's Approach to Forced Displacement (February 13th)</li>
-              <li>Social and Legal Rights of Refugees (March 12th & April 9th)</li>
-              <li>The Impact of Forced Displacement on Children (May 14th)</li>
-              <li>Inclusion of Refugees in Development Plans (August 13th)</li>
-              <li>Acculturation and Social Network Analysis (October 8th & November 12th)</li>
-              <li>Analysis of Planned Relocation Policies (December 10th)</li>
-                
-            </ul>
+            </Col>
+
+            {selectedEntries.length > 0 && (
+              <Col xs={12} md={12} lg={8}>
+                <div className='table-container'>
+                  <table>
+                    <thead>
+                      <tr>
+                        {/* <th className='tablecell serial-number'>Serial Number</th> */}
+                        <th className='tablecell'>Date and Time</th>
+                        <th className='tablecell'>Topic</th>
+                        <th className='tablecell'>Presenter</th>
+                        <th className='tablecell'>Chair</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {selectedEntries.map((entry, index) => (
+                        <tr key={index}>
+                          {/* <td className='tablecell'>{entry.serial_number}</td> */}
+                          <td className='tablecell'>{entry.date_and_time}</td>
+                          <td className='tablecell'>{entry.topic}</td>
+                          <td className='tablecell'>{entry.presenter}</td>
+                          <td className='tablecell'>{entry.chair}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </Col>
+            )}
           </Row>
 
           <Row>

@@ -1,0 +1,133 @@
+{
+  "seminars": [
+    {
+      "section_title": "PREVIOUS SEMINARS",
+      "entries": [
+        {
+          "serial_number": 1,
+          "date_and_time": "9th January 2024 04:00-05:00 pm",
+          "topic": "Climate Change Policies and Displacement Nexus",
+          "presenter": "Mr. Rikanga",
+          "chair": "Dr. Andrea"
+        },
+        {
+          "serial_number": 2,
+          "date_and_time": "13th Feb 2024 04:00-05:00 pm",
+          "topic": "Traversing the paradox of having East African refugees in the East African Community.\nEAC Regional Economic Integration: Dream vs Reality",
+          "presenter": "Prof. Kamanga and Dr. Protas",
+          "chair": "Mr. Rikanga"
+        },
+        {
+          "serial_number": 3,
+          "date_and_time": "12th March 2024 04:00-05:00 pm",
+          "topic": "Claiming Refugees’ Human Rights Amidst National Security and Resource Scarcity Debates",
+          "presenter": "Dr. Veronica",
+          "chair": "Dr. Faraja"
+        },
+        {
+          "serial_number": 4,
+          "date_and_time": "9th April 2024 04:00-05:00 pm",
+          "topic": "Where are the Burundian women?",
+          "presenter": "Dr. Kweka, Dr. Judith, and Dr. Rosemary",
+          "chair": "Dr. Katikiro"
+        },
+        {
+          "serial_number": 5,
+          "date_and_time": "16th April 2024 04:00-05:00 pm",
+          "topic": "Ways to Impact Policy",
+          "presenter": "Dr. Vicensia Shule",
+          "chair": "Dr. Veronica"
+        },
+        {
+          "serial_number": 6,
+          "date_and_time": "23rd April 2024 04:00-05:00 pm",
+          "topic": "Exile and poverty: An unfortunate legacy for children of Burundi’s 1972 crisis returnees",
+          "presenter": "Mr. Canesius Ndayi Cane",
+          "chair": "Dr. Mbata"
+        },
+        {
+          "serial_number": 7,
+          "date_and_time": "7th May 2024",
+          "topic": "The Naturalized Refugees in the Post-Colonial Tanzania: A Lesson and Viable Solution to Address Hatred in the Community, A Case of Katavi Region, 1960s-2020s.",
+          "presenter": "Mussa Kassim",
+          "chair": "Dr. Faraja"
+        }
+      ]
+    },
+    {
+      "section_title": "UPCOMING SEMINARS/EVENTS",
+      "entries": [
+        {
+          "serial_number": 8,
+          "date_and_time": "15th May 2024 04:00-05:00 pm",
+          "topic": "Politics of Citizenship as a Solution for Refugees in Tanzania: A comparative case study of naturalization of Rwandese (1980-1995) and Burundians (2008-2023)",
+          "presenter": "Deo Mwapinga",
+          "chair": "Dr. Msoka"
+        },
+        {
+          "serial_number": 9,
+          "date_and_time": "21st May 2024 04:00-05:00 pm",
+          "topic": "The global compact on refugees and the resilience of self-settled Burundian refugees in Tanzania.",
+          "presenter": "Mr. Leonard",
+          "chair": "Dr. Veronica"
+        },
+        {
+          "serial_number": 10,
+          "date_and_time": "28th May 2024 04:00-05:00 pm",
+          "topic": "Exploring responsive settlement planning for traditional male circumcision practices within the new Maasai community in Msomera, Handeni, Tanga",
+          "presenter": "Ms. Naishiye Stanley",
+          "chair": "Mr. Benezeth"
+        },
+        {
+          "serial_number": 11,
+          "date_and_time": "13th August 2024 04:00-05:00 pm",
+          "topic": "An Assessment of Inclusion of the refugees into development plans and national policies in Kenya",
+          "presenter": "Dr. Tiberius",
+          "chair": "Dr. Kweka"
+        },
+        {
+          "serial_number": 12,
+          "date_and_time": "27th August 2024 04:00-05:00 pm",
+          "topic": "TBC",
+          "presenter": "Dr. Andrea",
+          "chair": "Mr. Mussa Kassim"
+        },
+        {
+          "serial_number": 13,
+          "date_and_time": "08th October 2024 04:00-05:00 pm",
+          "topic": "Opportunities and Challenges to the Livelihood of Environmental Migrants",
+          "presenter": "Dr. Mwita",
+          "chair": "Dr. Veronica"
+        },
+        {
+          "serial_number": 14,
+          "date_and_time": "22nd October 2024 04:00-05:00 pm",
+          "topic": "TBC",
+          "presenter": "Dr. Mbatta",
+          "chair": "Mr. Canesius "
+        },
+        {
+          "serial_number": 15,
+          "date_and_time": "12th November 2024 04:00-05:00 pm",
+          "topic": "Social Networks Analysis",
+          "presenter": "Dr. Faraja",
+          "chair": "Dr. Msoka"
+        },
+        {
+          "serial_number": 16,
+          "date_and_time": "10th December 2024 04:00-05:00 pm",
+          "topic": "Analysis of Planned Relocation Policies",
+          "presenter": "Dr. Msoka",
+          "chair": "Dr. Lekumok"
+        },
+        {
+          "serial_number": 17,
+          "date_and_time": "24th December 2024 04:00-05:00 pm",
+          "topic": "Socioeconomic Impact of Conservation-induced displacement: the Case of Maasai pastoralists from Ngorongoro to Msomera",
+          "presenter": "Dr. Lekumock",
+          "chair": "Dr. Tiberius"
+        }
+      ]
+    }
+  ]
+}

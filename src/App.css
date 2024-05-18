@@ -230,4 +230,40 @@ figcaption{
 }
 
 
+/* seminar */
+
+.section-title{
+    font-family: lora;
+    color: #1D67AF;
+    text-align: center;
+    margin: 1em 0;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  
+  .table-container th, .table-container td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 2px solid #ddd;
+    border: 2px solid #ddd;
+  }
+  
+  /* Responsive layout - makes the table responsive and scrollable when the screen is less than 600px wide */
+  @media screen and (max-width: 700px) {
+    .table-container table, .table-container th, .table-container td {
+      width: 100%;
+    }
+  }
 
