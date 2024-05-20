@@ -22,10 +22,12 @@ const SecondDialogue = lazy(() => import('./Pages/PolicyDialogue/SecondDialogue'
 const FirstDialogue = lazy(() => import('./Pages/PolicyDialogue/FirstDialogue'));
 
 function App() {
+
+
   return (
     <BrowserRouter>
       <TopNavbar/>
-      <Suspense fallback={<Loader />}>
+      <Suspense fallback={<Loader open={true} />}>
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>

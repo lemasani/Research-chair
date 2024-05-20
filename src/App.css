@@ -256,7 +256,6 @@ figcaption{
   .table-container th, .table-container td {
     padding: 5px;
     text-align: left;
-    border-bottom: 2px solid #ddd;
     border: 2px solid #ddd;
   }
   
