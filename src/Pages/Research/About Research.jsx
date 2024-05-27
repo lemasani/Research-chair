@@ -12,21 +12,29 @@ export default function AboutResearch() {
       <h2 className='heading underlined'>About Research</h2>
       <Row>
         <Col xs={12} md={12} lg={12}>
-          <p>The UDSM-RCFD Research Chair aims at conducting a demand drive, action oriented, gender transformative research which has impact on policy in four areas of displacement in East Africa base on the causes. These are</p>
-          <ul className='text-justify'>
-            <li>
-            Refugees and internally displaced person (IDPS) from conflicts;
-            </li>
-            <li>Climate-disaster induced displaced (drought and floods);</li>
-            <li>Relocated or resettled population with little or unfair compensation to let for conservation or a development project;</li>
-            <li>Victims of trafficking and smuggling and other related population such as asylum seekers; mixed migrants and indigenous population and
-            The policy researches</li>
-            <li>Global policies and practices research</li>
-            <li>ollaboration with other Chairs funded by the IDRC in order to bring a global south voice into the displacement fora.</li>
-          </ul>
-          <p>
-          Between July-December 2023 members conducted fieldwork and results were communicated in a symposium with government and non-governmental organization working on forced displacement in the country. The title of the research is “Inclusive Policies: Resilient Livelihood, Socio-Ecological and Legal Protection of the Displaced were conducted with Congolese and Burundians in Kigoma and urban Dar es Salaam, relocated Maasai pastoralists in Tanga and victims of floods in Dar es Salam and Sukuma nomadic pastoralists migrants in Kigoma due to droughts.
-          </p>
+          <p>There is an increasingly number of refugees and internally displaced persons (IDPs).
+            Most of the refugees are protracted in camps or in host communities with inadequate
+            support and less option for resettlement. The increase in the number of IDPs is also
+            from climate change, disaster, conservation and development in addition to those in
+            conflict countries. While IDPs are not known and  have received less
+            or little in the policy realm, hence lack representation. The two types of displacement
+            share vulnerability, loss of livelihood, and may have been adapting in different or same
+            way. 
+            </p>
+
+            <p>This proposed research takes a holistic approach to addressing issues of displacement from conflicts, climate, development investments and trafficking. Both the refugees and the displaced persons from other forces have similar experience of
+            loss of livelihood, may be facing a lack of or inadequate access to social and legal
+            protection, and economic exclusion in their areas of new settlements and for some of
+            them, different adaptation strategies may have led to resilience.</p>
+
+            <p>The rationale of the proposed research rests on the fact that there are many protracted
+            refugees and increasing number of internally displaced persons in the region, with little
+            on no prospects for the durable solutions. While the durable solutions seem to be not
+            applicable in some cases. This study aims at broadening our understanding of the
+            displaced in terms of their livelihood, social and legal protection needs, and more
+            importantly how they themselves become the agents of their own change. The
+            broadening of the concept of forced displaced to include all forms will allow researchers
+            to focus on exploring adaptation strategies that can lead to resilience.</p>
         </Col>
         <Row>
         <Col xs={12} md={12} lg={6}>
