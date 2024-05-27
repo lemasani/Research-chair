@@ -22,13 +22,13 @@ export default function Outreach() {
 
           <Col xs={12} md={12} lg={12}>
             <Row>
-            <Col xs={12} md={12} lg={12}>
+            <Col xs={12} md={6} lg={6}>
                 <figure>
                   <img src={Outreach1} alt="outreach at kigogo" width="100%"/>
                   <figcaption>Outreach at Nduta Refugee Camp, Kigoma</figcaption>
                 </figure>
               </Col>
-              <Col xs={12} md={12} lg={12}>
+              <Col xs={12} md={6} lg={6}>
                 <figure>
                   <img src={Outreach2} alt="outreach kigoma"  width="100%" />
                   <figcaption>Outreach activities at Kigoma</figcaption>
