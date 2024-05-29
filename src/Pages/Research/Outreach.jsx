@@ -1,4 +1,3 @@
-import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Outreach1 from './../../assets/outreach1.png'
 import Outreach2 from './../../assets/outreach2.png'
