@@ -1,0 +1,19 @@
+[
+    
+    {
+        "id": 4,
+        "fullName": "Naishiye Stanley",
+        "nationality": "Tanzanian",
+        "educationLevel": "Masters",
+        "image": "./../assets/bwogi.jpg",
+        "title": "Exploring Responsive settlement planning for Traditional male circumcision practices in new masaai community villages in Msomera, Handeni, Tanga"
+    },
+    {
+        "id": 6,
+        "fullName": "Mussa Ndyanyi",
+        "nationality": "Tanzanian",
+        "educationLevel": "PhD",
+        "image": "./../assets/bwogi.jpg",
+        "title": "Religion, sports and diseases in relation to migration and refugees"
+    }
+]

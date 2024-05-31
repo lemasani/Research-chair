@@ -1,9 +1,5 @@
-import React from 'react'
 import Carousel from '../Components/Carousel'
-import {  Col, Container, Row } from 'react-bootstrap'
-import NewsCard from '../Components/NewsCard'
-import NewsData from '../Data/NewsData.json'
-import ProgramCardRendered from '../Components/ProgramCardRendered'
+import { Container, Row } from 'react-bootstrap'
 import Footer from '../Components/Footer'
 
 export default function Home() {

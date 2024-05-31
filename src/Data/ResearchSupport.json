@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "fullName": "Bwogi Patra Leoney",
+        "nationality": "Ugandan",
+        "educationLevel": "Masters",
+        "image": "ResearchSupport/Bwigo patra.png",
+        "title": "Repatriation of refugee in Uganda and a search for a common repatriation mechanism in East Africa"
+    },
+    {
+        "id": 2,
+        "fullName": "Canesius Ndayikeza",
+        "nationality": "Burudian",
+        "educationLevel": "PhD student",
+        "image": "ResearchSupport/canesius ndayikeza.png",
+        "title": "Obstacles to returnees' sustainable integration, with focus on food insecurity"
+    },
+    {
+        "id": 3,
+        "fullName": "Judith Wanda",
+        "nationality": "Kenyan",
+        "educationLevel":"PhD",
+        "image": "ResearchSupport/Judith wanda.png",
+        "title": "Functions of local media coverage in shaping the accultration experience of refugees and internally displaced persons in East Africa"
+    }
+]
