@@ -1,4 +1,3 @@
-import React, {useState} from 'react';
 import NavbarHeader from './NavbarHeader';
 
 
@@ -33,7 +32,7 @@ function MyNavbar() {
               </NavDropdown.Item>
               <NavDropdown.Item href="/research/symposyium&conferences">
                 Symposyium and conferences
-               </NavDropdown.Item>
+              </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown className='nav-dropdown' title="Training" id="basic-nav-dropdown">
               <NavDropdown.Item href="/training/seminars">Seminars</NavDropdown.Item>
@@ -49,14 +48,14 @@ function MyNavbar() {
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown  className='nav-dropdown' title="links & Collaboration" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">IDRC's Research Chairs</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href="#action/3.1">IDRC&apos;s Research Chairs</NavDropdown.Item>
+              {/* <NavDropdown.Item href="#action/3.2">
                 Network of Academic Scholars
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Partners</NavDropdown.Item>
+              </NavDropdown.Item> */}
+              <NavDropdown.Item href="/partners">Partners</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link className='nav-item' href="/news">News</Nav.Link>
-            <Nav.Link className='nav-item' href="#link">Contact</Nav.Link>
+            {/* <Nav.Link className='nav-item' href="#link">Contact</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

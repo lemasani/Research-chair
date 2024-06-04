@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import React, { Suspense, lazy } from 'react';
+import  { Suspense, lazy } from 'react';
 import './App.css';
 import TopNavbar from './Components/Navbar';
 import Loader from './Components/loader';
@@ -20,6 +20,7 @@ const InternsByCategory = lazy(() => import('./Pages/Training/InternByCategory')
 const ResearchSupport = lazy(() => import('./Pages/Training/ResearchSupport'));
 const SecondDialogue = lazy(() => import('./Pages/PolicyDialogue/SecondDialogue'));
 const FirstDialogue = lazy(() => import('./Pages/PolicyDialogue/FirstDialogue'));
+const Partners = lazy(() => import('./Pages/LinksCollaboration/Partners'))
 
 function App() {
 
@@ -32,7 +33,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/about" element={<About/>}/>
 
-          //research routes
+          {/* //research routes */}
           <Route path='/research/about-research' element={<AboutResearch/>}/>
           <Route path='/research/fieldwork' element={<Fieldworks/>}/>
           <Route path='/research/working-papers' element={<WorkingPapers/>}/>
@@ -40,17 +41,20 @@ function App() {
           <Route path='/research/outreach' element={<Outreach/>}/>
           <Route path='/research/symposyium&conferences' element={<Symposyium/>}/>
 
-          //training routes
+          {/* //training routes */}
           <Route path='/training/seminars' element={<Seminar/>}/>
           <Route path='/internship' element={<Internship/>}/>
           <Route path="/interns/:category" element={<InternsByCategory/>} />
           <Route path='/training/research-support' element={<ResearchSupport/>}/>
 
-          //policy dialogue routes
+          {/* //policy dialogue routes */}
           <Route path='/1stDialogue' element={<FirstDialogue/>}/>
           <Route path='/2ndDialogue' element={<SecondDialogue/>}/>
 
-          //news routes
+          {/* Links & collaboration */}
+          <Route path='/partners' element={<Partners />} />
+
+          {/* //news routes */}
           <Route path='/news' element={<News/>}/>
           <Route path="/news/:id" element={<NewsDetails/>} />
         </Routes>
